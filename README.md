@@ -12,7 +12,7 @@ from marshmallow import Schema, fields
 
 # Create an APISpec
 spec = APISpec(
-    title='Swagger Petstore',
+    title='Random swagger Petstore',
     version='1.0.0',
     plugins=[
         'apispec.ext.flask',
