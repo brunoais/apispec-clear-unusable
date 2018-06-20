@@ -50,8 +50,8 @@ class RandomPet(Resource):
 
 
 api.add_resource(RandomPet, '/pets/random', endpoint='randompet')
-api.add_resource(RandomPet, '/pets/{species}/random', endpoint='randompet_species')
-api.add_resource(RandomPet, '/pets/{species}/races/{race}/random', endpoint='randompet_species_race')
+api.add_resource(RandomPet, '/pets/<species>/random', endpoint='randompet_species')
+api.add_resource(RandomPet, '/pets/<species>/races/<race>/random', endpoint='randompet_species_race')
 
 spec.definition('Category', schema=CategorySchema)
 spec.definition('Pet', schema=PetSchema)
