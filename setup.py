@@ -4,7 +4,7 @@ with open("README.md", "r", encoding='UTF-8') as fh:
     long_description = fh.read()
 
 setup(name='apispec-clear-unusable',
-        version='1.0.1',
+        version='1.0.0',
         license='MIT',
         description='Plugin for apispec which helps reusing the documentation on a muti-endpoint function/method.',
         long_description=long_description,
