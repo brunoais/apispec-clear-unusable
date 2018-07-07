@@ -105,4 +105,4 @@ swagger: '2.0'
 ## License
 
 This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent per‐mitted by law.
+There is NO WARRANTY, to the extent permitted by law.
